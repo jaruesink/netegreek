@@ -1,6 +1,8 @@
 @import "variables.less";
 @import "mixins.less";
 
+// out: ../css/freelancer.css
+
 body {
 	overflow-x: hidden;
 }
@@ -10,7 +12,7 @@ p {
 }
 
 p.small {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 a,
@@ -385,8 +387,8 @@ footer {
 	}
     .close-modal {
         position: absolute;
-        width:75px;
-        height:75px;
+        width:25px;
+        height:25px;
         background-color:transparent;
         top: 25px;
         right: 25px;
@@ -395,7 +397,7 @@ footer {
             opacity: 0.3;
         }
         .lr {
-            height:75px;
+            height:25px;
             width:1px;
             margin-left:35px;
             background-color:@brand-primary;
@@ -406,7 +408,7 @@ footer {
             /* Safari and Chrome */
             z-index:1051;
             .rl {
-                height:75px;
+                height:25px;
                 width:1px;
                 background-color:@brand-primary;
                 transform: rotate(90deg);
