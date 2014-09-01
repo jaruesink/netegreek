@@ -121,7 +121,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 110px;
         padding-bottom: 100px;
     }
 
@@ -467,3 +467,13 @@ footer .footer-below {
 
 /*custom changes*/
 #about{padding-bottom:0px;}
+#social-icons .btn-social {width: 30px; height: 30px; font-size: 16px; line-height: 28px;}
+#social-icons .list-inline>li {padding-right: 0px;}
+
+@media screen and (max-width:767px){
+    #social-icons{
+        position:absolute;
+        left:140px;
+        top:-2px;
+    }
+}
