@@ -14,5 +14,10 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /contact
+  script: contact_me.php
+  
 - url: .*
   script: main.php
+
+
