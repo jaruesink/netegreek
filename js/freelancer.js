@@ -9,7 +9,7 @@ $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - 0
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -35,3 +35,8 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('#pricingTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
