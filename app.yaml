@@ -1,14 +1,14 @@
 application: netegreek
 version: 1
-runtime: php
+runtime: php55
 api_version: 1
 threadsafe: yes
 
 handlers:
 
-- url: /(.*\.(gif|png|jpg|ico|js|css|txt|json|wof|ttf|svg))
+- url: /(.*\.(gif|png|jpg|ico|js|css|txt|json|wof|ttf|svg|pdf))
   static_files: \1
-  upload: (.*\.(gif|png|jpg|ico|js|css|txt|json|wof|ttf|svg))
+  upload: (.*\.(gif|png|jpg|ico|js|css|txt|json|wof|ttf|svg|pdf))
   
 - url: /favicon\.ico
   static_files: favicon.ico
