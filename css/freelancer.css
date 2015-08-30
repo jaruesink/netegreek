@@ -65,7 +65,7 @@ header {
   text-align: center;
   background: #00bcd4;
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   color: white;
   background-image: url(../img/greek-bg.png);
   background-repeat: no-repeat;
@@ -110,8 +110,8 @@ header .intro-text .skills {
     left: 0px;
   }
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 140px;
   }
   header .intro-text .name {
     font-size: 6.75em;
@@ -378,6 +378,8 @@ footer .footer-below {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+  height: 400px;
+  width: auto;
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
